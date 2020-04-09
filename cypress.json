@@ -3,6 +3,5 @@
     "pageLoadTimeout": 60000,
     "env": {
         "host": "https://www.gigamon.com/"
-    },
-    "reporter": "mochawsome"
+    }
 }

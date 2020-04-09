@@ -4,7 +4,8 @@
   "description": "demo",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/cypress open"
+    "regression": "node_modules\\.bin\\cypress run",
+    "sanity": "node_modules\\.bin\\cypress run --spec \"cypress/integration/epicName1/requestDemo.spec.js*\""
   },
   "repository": {
     "type": "git",
@@ -15,9 +16,7 @@
   "dependencies": {},
   "devDependencies": {
     "cypress": "^4.2.0",
-    "cypress-iframe": "^1.0.1",
-    "mocha": "^7.1.1",
-    "mochawesome": "^5.0.0"
+    "cypress-iframe": "^1.0.1"
   },
   "bugs": {
     "url": "https://github.com/agaly/gigamon_demo/issues"
