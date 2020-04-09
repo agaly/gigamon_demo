@@ -1,0 +1,26 @@
+{
+  "name": "gigamon_demo",
+  "version": "1.0.0",
+  "description": "demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agaly/gigamon_demo.git"
+  },
+  "author": "email@gigamon.com",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^4.2.0",
+    "cypress-iframe": "^1.0.1",
+    "mocha": "^7.1.1",
+    "mochawesome": "^5.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/agaly/gigamon_demo/issues"
+  },
+  "homepage": "https://github.com/agaly/gigamon_demo#readme"
+}
